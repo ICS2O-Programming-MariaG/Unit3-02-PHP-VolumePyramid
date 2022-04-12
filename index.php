@@ -37,7 +37,10 @@
         <input type="submit" value="Calculate">
       </form>
     </div>
-    <iframe id="third" name="results">
-    </iframe>
+    <!-- Last div to fix width of iframe -->
+    <div id="width">
+      <iframe id="third" name="results">
+      </iframe>
+    </div>
   </body>
 </html>
