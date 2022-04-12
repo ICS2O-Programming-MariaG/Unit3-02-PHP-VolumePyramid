@@ -1,1 +1,2 @@
 # Unit3-02-PHP-VolumePyramid
+[![GitHub's Super Linter](https://github.com/ICS2O-Programming-MariaG/Unit3-02-PHP-VolumePyramid/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS2O-Programming-MariaG/Unit3-02-PHP-VolumePyramid/actions)
