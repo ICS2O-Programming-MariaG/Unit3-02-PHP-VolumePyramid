@@ -3,3 +3,56 @@
 * This CSS file defines the style for index.php
 * ICS2O-Unit3-02-PHP-VolumePyramid
 */
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #e95a4e;
+  color: white;
+}
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  width: 50%;
+}
+
+#first {
+  background-color: #fde7fb;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+}
+
+form {
+  margin-left: 10%;
+}
+
+h3 {
+  margin-left: 10%;
+}
+
+#second {
+  background-color: #e0f7ff;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#third {
+  background-color: #fbffb5;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+iframe {
+  width: 97%;
+  margin: 30px, 1.5%;
+}

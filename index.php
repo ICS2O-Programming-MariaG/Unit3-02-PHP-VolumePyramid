@@ -18,21 +18,26 @@
     <title>Calculating the Volume of a Right Triangle-Based Pyramid in PHP - Maria Goemans</title>
   </head>
   <body>
-    <?php
-      echo "<h1>Calculating the Volume of a Right Triangle-Based Pyramid in PHP</h1>"; 
-      echo "<p>Welcome! This web page will use your input to calculate the volume of a right triangle-based pyramid in PHP. Please input the dimensions of the base and the height of the pyramid in the form below:</p>";
-      echo "<h3>Your Input:</h3>";
-    ?>
-    <form action="./calculate.php" method="post" target="results">
-      <label for="height-base">Height of the pyramid's triangular base (in cm)</label>
-      <input type="number" step="0.01" min="0" name="height-base" placeholder="Base height..."><br><br>
-      <label for="base-length">Base length of the pyramid's triangular base (in cm)</label>
-      <input type="number" step="0.01" min="0" name="base-length" placeholder="Base length..."><br><br>
-      <label for="height-pyramid">Height of the pyramid</label>
-      <input type="number" step = "0.01" min="0" name="height-pyramid" placeholder="Pyramid height..."><br><br>
-      <input type="submit" value="Calculate">
-    </form>
-    <iframe id="results" name="results">
+    <?php echo "<h1>Calculating the Volume of a Right Triangle-Based Pyramid in PHP</h1>"; ?>
+    <!-- Div for style -->
+    <div id="first">
+      <?php echo "<p>Welcome! This web page will use your input to calculate the volume of a right triangle-based pyramid in PHP. See the image below for the formula used to complete these calculations. Please input the dimensions of the base and the height of the pyramid in the form below:</p>"; ?>
+      <img src="./images/formulas.png" alt="formula: abh/2">
+    </div>
+    <!-- Second div for style -->
+    <div id="second">
+      <?php echo "<h3>Your Input:</h3>"; ?>
+      <form action="./calculate.php" method="post" target="results">
+        <label for="height-base">Height of the pyramid's triangular base (in cm)</label>
+        <input type="number" step="0.01" min="0" name="height-base" placeholder="Base height..."><br><br>
+        <label for="base-length">Base length of the pyramid's triangular base (in cm)</label>
+        <input type="number" step="0.01" min="0" name="base-length" placeholder="Base length..."><br><br>
+        <label for="height-pyramid">Height of the pyramid</label>
+        <input type="number" step = "0.01" min="0" name="height-pyramid" placeholder="Pyramid height..."><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </div>
+    <iframe id="third" name="results">
     </iframe>
   </body>
 </html>
