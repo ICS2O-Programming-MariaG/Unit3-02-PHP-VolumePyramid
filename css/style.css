@@ -9,12 +9,13 @@ h1 {
   padding: 20px;
   background-color: #e95a4e;
   color: white;
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 body {
   width: 80%;
   margin: 5% 10%;
-  font-family: "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, "Arial Narrow", sans-serif;
 }
 
 img {
